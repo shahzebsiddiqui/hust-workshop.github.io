@@ -1,0 +1,42 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "HUST 2018: Fifth International Workshop on HPC User Support Tools"
+keywords:    "HPC, hpc, support, user, build, tools, sc18, hust18, hust, devops, supercomputing"
+description: "Fifth International Workshop on HPC User Support Tools"
+source_link: "https://github.com/hust18/hust18.github.io"
+favicon:     "img/wrench.png"
+touch_icon:  "img/wrench.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  tan     :  '#b2ad7f'
+  green:     '#00a591'
+  purple:    '#6b5b95'
+  orange:    '#ff7b25'
+  bluegrey:  '#a2b9bc'
+  red:	     '#d64161'
+  grey:	     '#B4B7BA'
+  blue:	     '#3694cf'
+  coral:     '#EC9787'
+                            
+kramdown:
+  auto_ids:  false
+
