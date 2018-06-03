@@ -1,0 +1,183 @@
+\documentclass[11pt,a4paper]{article}
+
+%\usepackage[tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in]{geometry}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[sectionbib,numbers]{natbib}
+\usepackage[UKenglish]{isodate}
+\usepackage{watermark}
+\usepackage{transparent}
+\usepackage{fix-cm}
+\usepackage{fancyhdr}
+%\usepackage[utf8]{inputenc}
+%\usepackage{pxfonts}
+\usepackage[default,osfigures]{opensans}
+\usepackage[T1]{fontenc}
+
+\usepackage{sectsty}
+%\subsubsectionfont{\itshape}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{1}
+%\SetWatermarkLightness{0.95}
+
+\setlist{noitemsep}
+\parskip 2pt
+
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace{40mm}
+{ {\fontfamily{phv}\selectfont \Huge Call for participation}}\\
+\vspace{4mm}
+{\bf {\fontfamily{phv}\selectfont \huge HUST-2018:  Fifth International Workshop on HPC User Support Tools.}}\\
+\vspace{20mm}
+
+{ {\fontfamily{phv}\selectfont \huge Held in conjunction with: }}\\
+\vspace{2mm}
+{ {\fontfamily{phv}\selectfont \huge SC18: The International Conference on High
+Performance Computing, Networking, Storage and Analysis.}}\\
+\vspace{80mm}
+{ {\fontfamily{phv}\selectfont \Huge Dallas, TX, USA}}\\
+\vspace{2mm}
+{ {\fontfamily{phv}\selectfont \Huge  November 2018}}\\
+\vspace{35mm}
+
+\includegraphics[width=35mm]{../img/SC18-color-hor.jpg}
+\hspace{15mm}
+\includegraphics[width=35mm]{../img/tchpc_logo_cmyk.png}
+\hspace{15mm}
+\includegraphics[width=35mm]{../img/IEEE-eps/ComputerSocietyLogo-RGB-stacked.png}
+\\
+
+\end{center}
+\end{titlepage}
+
+\lhead{}
+\chead{\bf \fontfamily{phv}\selectfont HUST-2018: Fifth International Workshop on HPC User Support Tools.}
+\rhead{}
+\pagestyle{fancy}
+
+\setcounter{page}{2}
+
+\parindent 0pt
+\parskip 6pt
+\pagebreak
+\section{Introduction}
+
+Supercomputing centers exist to drive scientific discovery by supporting researchers in 
+computational science fields.  To make users more productive in the complex HPC
+environment, HPC centers employ user support teams.  These teams
+serve many roles, from setting up accounts, to consulting on math libraries and code
+optimization, to managing HPC software stacks.
+Often, support teams struggle to adequately support scientists.
+HPC environments are extremely complex, and combined with
+the complexity of multi-user installations, exotic hardware, and maintaining
+research software, supporting HPC users can be extremely demanding.
+
+With the fourth HUST workshop, we will continue to provide a necessary forum for 
+system administrators, user support team members, tool developers, policy makers and
+end users.  We will provide a forum to discuss support issues and we will
+provide a publication venue for current support developments.  Best practices,
+user support tools, and any ideas to streamline user support at supercomputing
+centers are in scope.
+
+\section{Topics}
+
+Topics of interest include, but are not limited to:
+
+\begin{itemize}
+\item defining and customising the user environment
+\item software build and installation tools
+\item tools and frameworks for using system performance analysis tools
+\item workflow and pipeline tools
+\item collaboration tools
+\item novel environments: cloud, support for Docker.
+\item supporting Hadoop and Spark clusters for {\bf Big Data}
+\item establishing baseline configuration efforts for HPC
+\item software tools for system {\bf testing and monitoring}
+\item documentation: {\bf creating, maintaining and auto-updating}
+\end{itemize}
+
+\section{Submission Details}
+
+We invite authors to submit original, high-quality work with
+sufficient background material to be clear to the HPC
+community. 
+\subsection{Format}
+Submissions are at a length of 8 pages(IEEE conference format) with a 10-
+page limit (see https://www.ieee.org/conferences/publishing/templates.html). 
+The page limit includes figures, tables, and your appendices, 
+but does not include references, for which there is no page limit. 
+Papers should be submitted in PDF format. We kindly refer authors to 
+the necessary templates [2].
+
+All submissions should be made electronically through the Easychair
+website [3].  Submissions must be double blind, i.e., authors should
+remove their names, institutions or hints found in references to
+earlier work. When discussing past work, they need to refer to
+themselves in the third person, as if they were discussing another
+researcher's work. Furthermore, authors must identify any conflict of
+interest with the PC chair or PC members.
+
+Proceedings will be published in both IEEE TCHPC and the ACM Digital
+library through collaboration with ACM SIGHPC.
+
+\section{Important dates}
+\begin{itemize}
+\item Submission deadline: August 27th 2018
+\item Workshop paper reviews: by September 21st 2018
+\item Acceptance notifications: October 2nd 2018
+\item Camera-ready papers: October 12th 2018
+\item Workshop: At SC'18, November 11th 2018
+\end{itemize}
+
+\section{Organisers}
+
+\begin{itemize}
+\item Christopher Bording, IBM Research, United Kingdom 
+\item Elsa Gonsiorowski, LLNL, USA
+\item Olli-Pekka Lehto, Jump Trading, LLC, United Kingdom
+\end{itemize}
+
+\subsection{General Chair}
+\begin{itemize}
+\item Christopher Bording
+\end{itemize}
+\subsection{Program Co-Chairs}
+
+\begin{itemize}
+\item Elsa Gonsiorowski
+\item Olli-Pekka Lehto
+\end{itemize}
+
+\subsection{Program Committee}
+
+\begin{itemize}
+\item TBD
+%\item Daniel Ahlin, PDC HPC Center, KTH Royal Institute of Technology, Sweden
+%\item Erik Engquist, Rice University, USA
+%\item Wolfgang Frings, Juelich Supercomputing Centre, Germany
+%\item Andy Georges, Ghent University, Belgium
+%\item Christopher Harris, Pawsey Supercomputing Centre, Australia
+%\item Vera Hansper, CSC - IT Center for Science, Finland
+%\item Paul Kolano, NASA, USA
+%\item John C. Linford, ARM, USA
+%\item Dave Montoya, Los Alamos National Laboratory, USA
+%\item Randy Schauer, Raytheon Company, USA
+%\item Gary B. Skouson, Pacific Northwest Nation Laboratory, USA
+%\item William Scullin, Argonne National Laboratory, USA
+%\item Karen Tomko, Ohio Supercomputing Center, USA
+\end{itemize}
+
+\end{document}
