@@ -24,5 +24,3 @@ icon-title: true
 
 ## Program Committee
 To be finalized..
-
-y
