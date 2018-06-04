@@ -19,7 +19,7 @@ keywords:    "HPC, hpc, support, user, build, tools, sc18, hust18, hust, devops,
 description: "Fifth International Workshop on HPC User Support Tools"
 source_link: "https://github.com/hust18/hust18.github.io"
 favicon:     "img/wrench.png"
-touch_icon:  "img/wrench.png"
+#touch_icon:  "img/wrench.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 
 
