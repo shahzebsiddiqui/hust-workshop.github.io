@@ -24,7 +24,7 @@ icon-title: true
 
 ## Program Committee
 To be finalized..
-<!---
+
 * Daniel Ahlin, PDC HPC Center, KTH Royal Institute of Technology, Sweden
 * Erik Engquist, Rice University, USA
 * Andy Georges, Ghent University, Belgium
@@ -39,4 +39,4 @@ To be finalized..
 * William Scullin, Argonne National Laboratory, USA
 * Jean Shuler, Lawrence Livermore National Laboratory, USA
 * Karen Tomko, Ohio Supercomputing Center, USA
---->
+
