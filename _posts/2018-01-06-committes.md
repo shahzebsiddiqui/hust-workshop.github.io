@@ -23,4 +23,13 @@ icon-title: true
 * Olli-Pekka Lehto, Jump Trading, LLC, Singapore
 
 ## Program Committee
+* Daniel Ahlin, PDC HPC Center, KTH Royal Institute of Technology, Sweden
+* Christopher Harris, Pawsey Supercomputing Centre, Australia
+* Paul Kolano, NASA, USA
+* John C. Linform, ARM, USA
+* Robert McLay, TACC University of Texas
+* Randy Schauer, Raytheon Company, USA
+* Alan D Simpson, Edinburgh Parallel Computing Centre, United Kingdom
+* Karen Tomko, Ohio Supercomputing Center, USA
+* Jianwen Wei, Shanghai Jiao Tong University, China
 To be finalized..
