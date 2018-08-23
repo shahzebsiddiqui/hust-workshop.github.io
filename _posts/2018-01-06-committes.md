@@ -26,9 +26,10 @@ icon-title: true
 * Daniel Ahlin, PDC HPC Center, KTH Royal Institute of Technology, Sweden
 * David E. Bernholdt, Oak Ridge National Laboratory, USA
 * Fabrice Cantos, National Institute of Water and Atmospheric Research, New Zealand
+* Erik Engquist, Rice University, USA
 * Christopher Harris, Pawsey Supercomputing Centre, Australia
 * Paul Kolano, NASA, USA
-* John C. Linform, ARM, USA
+* John C. Linford, ARM, USA
 * Robert McLay, TACC University of Texas
 * David Montoya, Los Alamos National Laboratory, USA
 * Randy Schauer, Raytheon Company, USA
