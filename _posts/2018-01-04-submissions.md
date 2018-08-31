@@ -29,7 +29,7 @@ themselves in the third person, as if they were discussing another
 researcher's work. Furthermore, authors must identify any conflict of
 interest with the PC chair or PC members.
 
-Proceedings will be published in both IEEE Xplore digital
+Proceedings will be published in the IEEE Xplore digital
 library through collaboration with IEEE TCHPC.
 
 <div style="text-align:center;">
