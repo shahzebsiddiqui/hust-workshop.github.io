@@ -36,6 +36,8 @@ colors:
   grey:	     '#B4B7BA'
   blue:	     '#3694cf'
   coral:     '#EC9787'
+  violet:    '#183838'
+  sienna:    '#BC856C'
                             
 kramdown:
   auto_ids:  false
