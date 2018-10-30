@@ -17,7 +17,7 @@ icon-title: true
 
 * [Chris Bording](https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Chris.Bording), IBM Research, Hartree Centre, United Kingdom
 
-## Program Chairs
+## Program Committee Chairs
 
 * [Elsa Gonsiorowski](https://computation.llnl.gov/about/our-people/highlights/elsa-gonsiorowski), Lawrence Livermore National Laboratory, USA
 * Olli-Pekka Lehto, Jump Trading, LLC, Singapore
@@ -25,16 +25,17 @@ icon-title: true
 ## Program Committee
 
 * Daniel Ahlin, PDC HPC Center, KTH Royal Institute of Technology, Sweden
+* David E. Bernholdt, Oak Ridge National Laboratory, USA
+* Fabrice Cantos, National Institute of Water and Atmospheric Research, New Zealand
 * Erik Engquist, Rice University, USA
-* Andy Georges, Ghent University, Belgium
 * Christopher Harris, Pawsey Supercomputing Centre, Australia
-* Vera Hansper, CSC - IT Center for Science, Finland
-* Paul Kolano, NASA Ames Research Center, USA
-* John C. Linford, ParaTools, USA
-* Dave Montoya, Los Alamos National Laboratory, USA
-* Ryan Novosielski, Rutgurs University, USA
-* Gary B. Skouson, Pacific Northwest Nation Laboratory, USA
-* William Scullin, Argonne National Laboratory, USA
-* Jean Shuler, Lawrence Livermore National Laboratory, USA
+* Paul Kolano, NASA, USA
+* John C. Linford, ARM, USA
+* Robert McLay, TACC University of Texas
+* David Montoya, Los Alamos National Laboratory, USA
+* Randy Schauer, Raytheon Company, USA
+* Alan D Simpson, Edinburgh Parallel Computing Centre, United Kingdom
 * Karen Tomko, Ohio Supercomputing Center, USA
+* Jianwen Wei, Shanghai Jiao Tong University, China
+
 
