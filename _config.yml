@@ -21,7 +21,6 @@ description: "Sixth International Workshop on HPC User Support Tools"
 source_link: "https://github.com/hust-workshop/hust-workshop.github.io"
 favicon:     "img/wrench.png"
 touch_icon:  "img/wrench.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
@@ -39,7 +38,6 @@ colors:
   coral:     '#EC9787'
   violet:    '#183838'
   sienna:    '#BC856C'
-                            
+
 kramdown:
   auto_ids:  false
-
