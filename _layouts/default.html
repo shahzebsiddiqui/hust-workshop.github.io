@@ -16,68 +16,40 @@
   <div id="main">
 
     <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
-        {% if yr == page.year %}
-          <!--- {% if node.display != false %} --->
-            {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-            <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-          <!--- {% endif %} --->
-        {% endif %}
-      {% endfor %}
+    {% for node in site.posts reversed %}
+      {% capture y %}{{ node.date | date: "%Y" }}{% endcapture %}
+      {% assign yr = y | plus: 0 %}
+      {% if yr == page.year and node.display != false %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+      {% endif %}
+    {% endfor %}
     </ul></nav>
 
-<h1>Welcome to HUST {{ page.year }}</h1>
-<p>Processing posts</p>
-<ul>
-{% for node in site.posts reversed %}
-  <li>
-  {{ node.title }}:
-  {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
-  Does {{ yr }} equal {{ page.year }}?
-  {% if yr == page.year %}
-    yes!
-  {% endif %}
-  {% assign yrz = yr %}
-  What about {{ yrz }}?
-  {% if yrz == page.year %}
-    yes!
-  {% endif %}
-  Original year equality?
-  {% if page.year == page.year %}
-    yes!
-  {% endif %}
-  </li>
-{% endfor %}
-</ul>
-
-
     {% for node in site.posts reversed %}
-      {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
-      {% assign year = yr %}
-      {% if year == page.year %}
-          <!--- {% if node.display != false %} --->
-            {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-            <div id="{{id}}" class="section p-{{id}}">
-              {% if node.icon %}
-                <div class="subtlecircle sectiondivider imaged">
-                  <img src="{{node.icon}}" alt="section icon" />
-                  <h5 class="icon-title">{{ node.title }}</h5>
-                </div>
-              {% elsif node.fa-icon %}
-                <div class="subtlecircle sectiondivider faicon">
-                  <span class="fa-stack">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-{{ node.fa-icon }} fa-stack-1x"></i>
-                  </span>
-                  <h5 class="icon-title">{{ node.title }}</h5>
-                </div>
-              {% endif %}
-              <div class="container {{ node.style }}">
-                {{ node.content }}
-              </div>
+      {% capture y %}{{ node.date | date: "%Y" }}{% endcapture %}
+      {% assign yr = y | plus: 0 %}
+      {% if yr == page.year and node.display != false %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <div id="{{id}}" class="section p-{{id}}">
+          {% if node.icon %}
+            <div class="subtlecircle sectiondivider imaged">
+              <img src="{{node.icon}}" alt="section icon" />
+              <h5 class="icon-title">{{ node.title }}</h5>
             </div>
-         <!--- {% endif %} --->
+          {% elsif node.fa-icon %}
+            <div class="subtlecircle sectiondivider faicon">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-{{ node.fa-icon }} fa-stack-1x"></i>
+              </span>
+              <h5 class="icon-title">{{ node.title }}</h5>
+            </div>
+          {% endif %}
+          <div class="container {{ node.style }}">
+            {{ node.content }}
+          </div>
+        </div>
       {% endif %}
     {% endfor %}
 
