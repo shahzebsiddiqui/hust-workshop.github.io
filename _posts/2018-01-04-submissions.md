@@ -5,6 +5,7 @@ color: white
 style: left
 fa-icon: file-text-o
 icon-title: true
+display: false
 ---
 
 We invite authors to submit original, high-quality work with
