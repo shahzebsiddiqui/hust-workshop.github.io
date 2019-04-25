@@ -27,12 +27,10 @@
       {% endfor %}
     </ul></nav>
 
+<h1>Welcome to HUST {{ page.year }}</h1>
 
     {% for node in site.posts reversed %}
-      {% assign yr = node.date | date: "%Y" %}
-      {{ yr }}
-      {{ node.date }}
-      {{ node.date | date: "%Y" }}
+      {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
       {% if yr == page.year %}
           {% if node.display != false %}
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
