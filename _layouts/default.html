@@ -17,8 +17,9 @@
 
     <nav><ul>
       {% for node in site.posts reversed %}
-        {% if node.date < page.year %}
-          {% if node.display %}
+        {% assign yr = node.date | date: "%Y" %}
+        {% if yr == page.year %}
+          {% if node.display != false %}
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
             <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
           {% endif %}
