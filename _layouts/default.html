@@ -17,12 +17,12 @@
 
     <nav><ul>
       {% for node in site.posts reversed %}
-        {% assign yr = node.date | date: "%Y" %}
+        {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
         {% if yr == page.year %}
-          {% if node.display != false %}
+          <!--- {% if node.display != false %} --->
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
             <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-          {% endif %}
+          <!--- {% endif %} --->
         {% endif %}
       {% endfor %}
     </ul></nav>
@@ -31,12 +31,9 @@
 
     {% for node in site.posts reversed %}
       {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
-      Captured: {{ yr }}
-      node.date-formated: {{ node.date | date: "%Y" }}
-      <hl/>
       {% assign year = yr %}
       {% if year == page.year %}
-          {% if node.display != false %}
+          <!--- {% if node.display != false %} --->
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
             <div id="{{id}}" class="section p-{{id}}">
               {% if node.icon %}
@@ -57,7 +54,7 @@
                 {{ node.content }}
               </div>
             </div>
-         {% endif %}
+         <!--- {% endif %} --->
       {% endif %}
     {% endfor %}
 
