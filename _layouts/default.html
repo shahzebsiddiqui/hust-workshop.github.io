@@ -28,6 +28,29 @@
     </ul></nav>
 
 <h1>Welcome to HUST {{ page.year }}</h1>
+<p>Processing posts</p>
+<ul>
+{% for node in site.posts reversed %}
+  <li>
+  {{ node.title }}:
+  {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
+  Does {{ yr }} equal {{ page.year }}?
+  {% if yr == page.year %}
+    yes!
+  {% endif %}
+  {% assign yrz = yr %}
+  What about {{ yrz }}?
+  {% if yrz == page.year %}
+    yes!
+  {% endif %}
+  Original year equality?
+  {% if page.year == page.year %}
+    yes!
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
 
     {% for node in site.posts reversed %}
       {% capture yr %}{{ node.date | date: "%Y" }}{% endcapture %}
