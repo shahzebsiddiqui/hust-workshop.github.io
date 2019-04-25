@@ -31,6 +31,8 @@
     {% for node in site.posts reversed %}
       {% assign yr = node.date | date: "%Y" %}
       {{ yr }}
+      {{ node.date }}
+      {{ node.date | date: "%Y" }}
       {% if yr == page.year %}
           {% if node.display != false %}
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
