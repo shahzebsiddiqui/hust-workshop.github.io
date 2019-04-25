@@ -34,7 +34,8 @@
       Captured: {{ yr }}
       node.date-formated: {{ node.date | date: "%Y" }}
       <hl/>
-      {% if yr == page.year %}
+      {% assign year = yr %}
+      {% if year == page.year %}
           {% if node.display != false %}
             {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
             <div id="{{id}}" class="section p-{{id}}">
