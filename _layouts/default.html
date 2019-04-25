@@ -29,7 +29,10 @@
 
 
     {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      {% assign yr = node.date | date: "%Y" %}
+      {% if yr == page.year %}
+          {% if node.display != false %}
+            {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
@@ -49,6 +52,8 @@
           {{ page.content }}
         </div>
       </div>
+        {% endif %}
+      {% endif %}
     {% endfor %}
 
 
