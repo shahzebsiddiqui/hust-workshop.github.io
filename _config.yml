@@ -14,7 +14,6 @@ markdown: kramdown
 
 
 ### content configuration ###
-year:        2019
 title:       "HUST: International Workshop on HPC User Support Tools"
 keywords:    "HPC, hpc, support, user, build, tools, sc19, hust19, hust, devops, supercomputing"
 description: "HUST: International Workshop on HPC User Support Tools"
