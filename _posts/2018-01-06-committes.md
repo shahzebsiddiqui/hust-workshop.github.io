@@ -37,5 +37,3 @@ icon-title: true
 * Alan D Simpson, Edinburgh Parallel Computing Centre, United Kingdom
 * Karen Tomko, Ohio Supercomputing Center, USA
 * Jianwen Wei, Shanghai Jiao Tong University, China
-
-
