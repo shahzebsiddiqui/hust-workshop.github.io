@@ -29,6 +29,6 @@ icon-title: true
 * Fabrice Cantos, NIWA, National Institute of Water and Atmospheric Research, New Zealand
 * Eric Engquist, Rice University, USA
 * Christopher Harris, Pawsey Supercomputing Center, Australia
-* Mozhgan Kabiri-Chimeh, University of Sheffield, UK
+* Mozhgan Kabiri-Chimeh, University of Sheffield, United Kingdom
 * Paul Kolano, NASA, USA
 * Robert McLay, TACC, USA
