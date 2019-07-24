@@ -21,7 +21,7 @@ but does not include references, for which there is no page limit.
 Papers should be submitted in PDF format. We kindly refer authors to 
 the necessary templates [2].
 
-All submissions should be made electronically through the SC18 Submissions
+All submissions should be made electronically through the SC19 Submissions
 website [3].  Submissions must be double blind, i.e., authors should
 remove their names, institutions or hints found in references to
 earlier work. When discussing past work, they need to refer to
