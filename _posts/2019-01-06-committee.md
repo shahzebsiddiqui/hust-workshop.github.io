@@ -33,3 +33,4 @@ icon-title: true
 * Paul Kolano, NASA, USA
 * Kevin Manalo, Georgia Institute of Technology, USA
 * Robert McLay, TACC, USA 
+* Abhinav Thota, Indiana University, USA
