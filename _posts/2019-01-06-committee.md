@@ -31,6 +31,6 @@ icon-title: true
 * Christopher Harris, Pawsey Supercomputing Center, Australia
 * Mozhgan Kabiri-Chimeh, University of Sheffield, United Kingdom
 * Paul Kolano, NASA, USA
-* Kevin Manalo, Georgia Institute of Technology, USA
+* Kevin Manalo, PACE, Georgia Institute of Technology, USA
 * Robert McLay, TACC, USA 
 * Abhinav Thota, Indiana University, USA
