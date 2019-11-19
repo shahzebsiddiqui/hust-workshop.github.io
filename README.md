@@ -2,6 +2,12 @@
 
 HUST Workshop at Supercomputing
 
+# Join the Community
+
+Interested in joining the HUST community. Join the Slack community at https://hust-invite-slack.herokuapp.com/.
+
+The slack workspace is called: https://hpcusersupporttools.slack.com
+
 ## Layout of this repo
 
 This site uses sections within a single page, where each page is particular year.
